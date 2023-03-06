@@ -1,0 +1,23 @@
+{
+	"name": "alhasaniq/zaincash-sdk",
+	"description": "An Unofficial Object Oriented SDK for integrating ZainCash with php applications.",
+	"keywords": [
+		"zaincash",
+		"zain",
+		"pay"
+    jordan
+	],
+	"require": {
+		"php": ">=5.4.0",
+		"firebase/php-jwt": "^4.0",
+		"guzzlehttp/guzzle": "~6.0"
+	},
+	"require-dev": {
+		"vlucas/phpdotenv": "^2.4"
+	},
+	"autoload": {
+		"psr-4": {
+			"AlhasanIQ\\": "src/"
+		}
+	}
+}
